@@ -22,6 +22,17 @@ import image20 from "./../../public/pack2/meninonovo.jpg";
 import image21 from "./../../public/pack2/mulherouvidos.jpg";
 import image22 from "./../../public/pack2/obrigado.jpg";
 
+import image23 from "./../../public/pack3/banneracai.jpg";
+import image24 from "./../../public/pack3/impossivelvcresistir.jpg";
+import image25 from "./../../public/pack3/vemtomaracai.jpg";
+import image27 from "./../../public/pack3/acainofrio.jpg";
+import image28 from "./../../public/pack3/bemgostosinho.jpg";
+import image29 from "./../../public/pack3/euamoroxinho.jpg";
+import image30 from "./../../public/pack3/melhorroxinho.jpg";
+import image31 from "./../../public/pack3/pediuchecgou.jpg";
+import image32 from "./../../public/pack3/bemgostosinho.jpg";
+import image33 from "./../../public/pack3/obrigadoacai.jpg";
+
 import "./pack.css";
 import PackLayout from "./packLayout";
 
@@ -60,12 +71,11 @@ function Pack({ packSelected }) {
                 />
             )}
 
-            {/* {packSelected === 3 && (
+            {packSelected === 3 && (
                 <PackLayout
                     image1={image23}
                     image2={image24}
                     image3={image25}
-                    image4={image26}
                     image5={image27}
                     image6={image28}
                     image7={image29}
@@ -73,10 +83,11 @@ function Pack({ packSelected }) {
                     image9={image31}
                     image10={image32}
                     image11={image33}
+                    isPackLayoutTwo={true}
                 />
             )}
 
-            {packSelected === 4 && (
+            {/* {packSelected === 4 && (
                 <PackLayout
                     image1={image34}
                     image2={image35}

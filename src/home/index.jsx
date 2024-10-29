@@ -49,7 +49,9 @@ function Home() {
 
                 <div className="grid-container">
                     <div className="grid-item">
-                        <img src={image3} alt="Imagem 3" className="img-grid" />
+                        <Link to="/Pack3">
+                            <img src={image3} alt="Imagem 3" className="img-grid" />
+                        </Link>
                     </div>
                     <div className="grid-item">
                         <img src={image4} alt="Imagem 4" className="img-grid" />
