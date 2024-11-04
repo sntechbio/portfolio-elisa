@@ -6,41 +6,67 @@
     padding-right: 40px;
 }
 
-
+/* Layout padrão para computadores */
 .grid-container-pack {
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    gap: 5px;
-    margin: o;
-    padding: 5px;
+    grid-template-columns: repeat(1, 1fr); /* Duas colunas no desktop */
+    gap: 10px; /* Espaço maior para telas grandes */
+    padding: 10px;
 }
 
 .grid-pack-three {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas no desktop */
+    gap: 15px;
     justify-content: center;
-    margin-top: 0;
-    padding: 6px;
+    padding: 10px;
 }
 
 .grid-pack-two {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas no desktop */
+    gap: 15px;
     justify-content: center;
-    margin-top: 0;
-    padding: 6px;
+    padding: 10px;
 }
 
 .img-grid-item {
     width: 100%;
     height: auto;
     margin: 0;
-  }
+}
 
 .banner {
-    width: 100%;
-    height: 100%;
+    grid-column: span 12; /* Faz o banner ocupar duas colunas no layout de desktop */
+    width: 100%; /* Garante que a imagem do banner ocupe toda a largura */
+    height: auto;
     margin: 0;
+}
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    .container-pack {
+        padding-top: 15px; /* Reduzido para telas menores */
+        padding-bottom: 20px;
+        padding-left: 20px; /* Menos padding para dispositivos móveis */
+        padding-right: 20px;
+    }
+
+    .grid-container-pack {
+        grid-template-columns: 1fr; /* Uma única coluna em dispositivos móveis */
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .grid-pack-three {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos móveis */
+        gap: 10px;
+        padding: 6px; /* Menor padding */
+    }
+
+    .grid-pack-two {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos móveis */
+        gap: 10px;
+        padding: 6px;
+    }
 }

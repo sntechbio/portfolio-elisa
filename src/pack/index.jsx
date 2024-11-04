@@ -37,6 +37,9 @@ import "./pack.css";
 import PackLayout from "./packLayout";
 
 function Pack({ packSelected }) {
+
+
+
     return (
         <>
             {packSelected === 1 && (

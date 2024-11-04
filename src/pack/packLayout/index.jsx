@@ -6,7 +6,7 @@ function PackLayout({ image1, image2, image3, image4, image5, image6, image7, im
     return (
         <div className="container-pack">
 
-            <Link to="/Home">
+            <Link to="/">
                 <button style={{
                     fontSize: "100px",
                     backgroundColor: "black",
