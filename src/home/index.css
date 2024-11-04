@@ -69,6 +69,15 @@
   height: auto;
 }
 
+.img-grid-ptbr {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%); /* Converte a imagem para preto e branco */
+}
+
+
+
+
 /* Media queries para telas pequenas */
 @media (max-width: 768px) {
   .titulo-header {
@@ -83,4 +92,10 @@
   .grid-container {
     grid-template-columns: 1fr;
   }
+  .img-grid-ptbr {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%); /* Converte a imagem para preto e branco */
+}
+
 }

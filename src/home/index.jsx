@@ -54,7 +54,7 @@ function Home() {
                         </Link>
                     </div>
                     <div className="grid-item">
-                        <img src={image4} alt="Imagem 4" className="img-grid" />
+                        <img src={image4} alt="Imagem 4" className="img-grid-ptbr" />
                     </div>
                 </div>
 
