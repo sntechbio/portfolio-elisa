@@ -67,12 +67,22 @@
 .img-grid {
   width: 100%;
   height: auto;
+  transition: transform 0.3s ease; /* Transição suave para o zoom */
+}
+
+.img-grid:hover {
+  transform: scale(1.03); /* Aumenta a imagem em 10% ao passar o mouse */
 }
 
 .img-grid-ptbr {
   width: 100%;
   height: auto;
   filter: grayscale(100%); /* Converte a imagem para preto e branco */
+  transition: transform 0.3s ease;
+}
+
+.img-grid-ptbr:hover {
+  transform: scale(1.03); /* Aumenta a imagem em 10% ao passar o mouse */
 }
 
 
