@@ -8,7 +8,7 @@ function PackLayout({ image1, image2, image3, image4, image5, image6, image7, im
 
             <Link to="/">
                 <button style={{
-                    fontSize: "100px",
+                    fontSize: "35px",
                     backgroundColor: "black",
                     border: "none", 
                     cursor: "pointer" 

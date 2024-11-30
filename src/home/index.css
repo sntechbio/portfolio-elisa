@@ -43,7 +43,8 @@
 .texto-atencao {
   font-size: 28px; /* Reduzido para telas menores */
   font-weight: bold;
-  padding-top: 80px; /* Menos padding para melhor ajuste */
+  padding-top: 65px; /* Menos padding para melhor ajuste */
+  padding-bottom: 20px;
 }
 
 .img-header {
@@ -60,8 +61,8 @@
   grid-template-columns: repeat(2, 1fr); /* Uma coluna em dispositivos móveis */
   gap: 20px;
   justify-content: center;
-  margin-top: 15px;
-  padding: 20px;
+  margin-top: 0px;
+  padding: 5px;
 }
 
 .img-grid {
